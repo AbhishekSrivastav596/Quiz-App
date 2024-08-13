@@ -1,0 +1,45 @@
+body {
+  background-color: navy;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.container {
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+  background-color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+button {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+label {
+  font-size: 20px;
+}
+.incorrect {
+  border: 5px solid red;
+  margin-right: 20px;
+}
+.correct {
+  border: 5px solid green;
+  margin-right: 20px;
+}
+.question {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+#timer {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
